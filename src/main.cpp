@@ -7,6 +7,7 @@ Led RGB: Codigo para emitir luz de diversas cores utilizando um led RGB
 
 //Bibliotecas
 #include <Arduino.h>
+#include <D:\ted nerd\Arduino - Codigos\Led3Cores\lib\func.h>
 
 //Variaveis
 // Variaveis RGB em pinos com PWM
@@ -19,10 +20,12 @@ void setup() {
     pinMode(R, OUTPUT); //Pino led R como saida
     pinMode(B, OUTPUT); //Pino led B como saida
     Serial.begin(9600); //Inicia comunicação serial
+    pinMode(A0, OUTPUT);
 }
 
 void loop() {
-    //Escrita digital nas saidas RGB com PWM mapeado de 0 à 255
+    
+    /* Cores Experimentais
     digitalWrite(G,255); //Luz na cor verde
     delay(2000); //Espera 2 segundos
     digitalWrite(G,0); //Apaga o led verde
@@ -31,5 +34,13 @@ void loop() {
     digitalWrite(R,0); //Apaga o led vermelho
     digitalWrite(B,255); //Acende o led azul
     delay(2000); //Espera 2 segundos
-    digitalWrite(B,0); //Apaga o led azul
+    digitalWrite(B,0); //Apaga o led azul */
+
+    //Cores definidas na biblioteca
+    acendeVerde(G, R, B);
+    delay(2000);
+    acendeVermelho(G, R, B);
+    delay(2000);
+    acendeAzul(G, R, B);
+    delay(2000);
 }
