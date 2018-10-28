@@ -25,22 +25,24 @@ void setup() {
 
 void loop() {
     
-    /* Cores Experimentais
-    digitalWrite(G,255); //Luz na cor verde
-    delay(2000); //Espera 2 segundos
-    digitalWrite(G,0); //Apaga o led verde
-    digitalWrite(R,255); //Acende o led vermelho
-    delay(2000); //Espera 2 segundos
-    digitalWrite(R,0); //Apaga o led vermelho
-    digitalWrite(B,255); //Acende o led azul
-    delay(2000); //Espera 2 segundos
-    digitalWrite(B,0); //Apaga o led azul */
+    /* // Cores Experimentais
+    digitalWrite(G,105); //Intensidade na cor verde
+    digitalWrite(R,155); //Intensidade na cor vermelha
+    digitalWrite(B,255); //Intensidade na cor azul
+    delay(2000); //Espera 2 segundos */
+    
 
     //Cores definidas na biblioteca
-    acendeVerde(G, R, B);
+    acendeVerde(R, G, B);
     delay(2000);
-    acendeVermelho(G, R, B);
+    acendeVermelho(R, G, B);
     delay(2000);
-    acendeAzul(G, R, B);
+    acendeAzul(R, G, B);
+    delay(2000);
+    acendeAmarelo(R, G, B);
+    delay(2000);
+    acendeCianes(R, G, B);
+    delay(2000);
+    acendeMagento(R, G, B);
     delay(2000);
 }

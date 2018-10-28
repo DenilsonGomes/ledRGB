@@ -14,22 +14,43 @@
 //Ou escrita analogica mapeada de 0 à 1023
 
 //acendeVerde
-void acendeVerde(int G, int R, int B){
-    digitalWrite(G,255);
+void acendeVerde(int R, int G, int B){
     digitalWrite(R,0);
+    digitalWrite(G,255);
     digitalWrite(B,0);
 }
 
 //acendeVermelho
-void acendeVermelho(int G, int R, int B){
-    digitalWrite(G,0);
+void acendeVermelho(int R, int G, int B){
     digitalWrite(R,255);
+    digitalWrite(G,0);
     digitalWrite(B,0);
 }
 
 //acendeAzul
-void acendeAzul(int G, int R, int B){
-    digitalWrite(G,0);
+void acendeAzul(int R, int G, int B){
     digitalWrite(R,0);
+    digitalWrite(G,0);
     digitalWrite(B,255);
+}
+
+//acendeCianes
+void acendeCianes(int R, int G, int B){
+    digitalWrite(R,0);
+    digitalWrite(G,255);
+    digitalWrite(B,255);
+}
+
+//acendeAmarelo
+void acendeAmarelo(int R, int G, int B){
+    digitalWrite(R,255);
+    digitalWrite(G,255);
+    digitalWrite(B,0);
+}
+
+//acendeMagento
+void acendeMagento(int R, int G, int B){
+    digitalWrite(R,255);
+    digitalWrite(G,0);
+    digitalWrite(B,55);
 }
