@@ -25,10 +25,10 @@ void setup() {
 
 void loop() {
     
-    /* // Cores Experimentais
-    digitalWrite(G,105); //Intensidade na cor verde
-    digitalWrite(R,155); //Intensidade na cor vermelha
-    digitalWrite(B,255); //Intensidade na cor azul
+    // Cores Experimentais
+    /* digitalWrite(G,5); //Intensidade na cor verde
+    digitalWrite(R,255); //Intensidade na cor vermelha
+    digitalWrite(B,0); //Intensidade na cor azul
     delay(2000); //Espera 2 segundos */
     
 
