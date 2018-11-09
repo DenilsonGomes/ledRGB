@@ -26,12 +26,11 @@ void setup() {
 void loop() {
     
     // Cores Experimentais
-    /* digitalWrite(G,5); //Intensidade na cor verde
-    digitalWrite(R,255); //Intensidade na cor vermelha
-    digitalWrite(B,0); //Intensidade na cor azul
+    /* digitalWrite(G,55); //Intensidade na cor verde
+    digitalWrite(R,155); //Intensidade na cor vermelha
+    digitalWrite(B,255); //Intensidade na cor azul
     delay(2000); //Espera 2 segundos */
     
-
     //Cores definidas na biblioteca
     acendeVerde(R, G, B);
     delay(2000);

@@ -32,3 +32,20 @@
 <p> acendeAzul(R, G, B) <br>
 <p> A função "acendeAzul" é utilizada para emitir luz na cor azul.<p/>
 <p> Para emitir a luz na cor azul basta ligar o led azul e manter os outros desligados. <p/>
+
+<p> 4. acendeAmarelo: <br>
+<p> acendeAmarelo(R, G, B) <br>
+<p> A função "acendeAmarelo" é utilizada para emitir luz na cor vermelho.<p/>
+<p> Para emitir a luz na cor amarela vamos ligar os leds verde e vermelho e manter o led azul desligado. <p/>
+
+<p> 5. acendeCianes: <br>
+<p> acendeCianes(R, G, B) <br>
+<p> A função "acendeCianes" é utilizada para emitir luz na cor cianes.<p/>
+<p> Para emitir a luz na cor Cianes vamos ligar os leds verde e azul e manter o led vermelho desligado. <p/>
+
+<p> 6. acendeMagento: <br>
+<p> acendemagento(R, G, B) <br>
+<p> A função "acendeMagento" é utilizada para emitir luz na cor magento.<p/>
+<p> Para emitir a luz na cor magenta vamos ligar os leds vermelho e azul e manter o led verde desligado. <p/>
+
+<p> A implementação das bibliotecas podem ser vistas em "Led3Cores/lib/func.h". <p/>
