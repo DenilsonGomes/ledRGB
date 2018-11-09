@@ -17,7 +17,18 @@
 ==========
 
 <p>Foram criadas algumas funções para emitir a luminosidade em algumas cores desejadas. Estas funções são explicadas à seguir.<p/>
-<p> acendeVerde: <br>
-<p> void acendeVerde(int R, int G, int B) <br>
-<p> A função "acendeVerde" é utilizada para emitir luz na cor verde. A mesma tem uma assinatura autoexplicativa e possui 3 parâmetros, sendo eles os números dos pinos referentes aos leds R, G e B, respectivamente. <p/>
+ <p> Cada função tem uma assinatura autoexplicativa e possui 3 parâmetros, sendo eles os números dos pinos referentes aos leds R, G e B, respectivamente. Estes parâmetros são comuns para todas as funções.<p/>
+<p> 1. acendeVerde: <br>
+<p> acendeVerde(R, G, B) <br>
+<p> A função "acendeVerde" é utilizada para emitir luz na cor verde.<p/>
 <p> Para emitir a luz na cor verde basta ligar o led verde e manter os outros desligados. <p/>
+
+<p> 2. acendeVermelho: <br>
+<p> acendeVermelho(R, G, B) <br>
+<p> A função "acendeVermelho" é utilizada para emitir luz na cor vermelho.<p/>
+<p> Para emitir a luz na cor vermelha basta ligar o led vermelho e manter os outros desligados. <p/>
+
+<p> 3. acendeAzul: <br>
+<p> acendeAzul(R, G, B) <br>
+<p> A função "acendeAzul" é utilizada para emitir luz na cor azul.<p/>
+<p> Para emitir a luz na cor azul basta ligar o led azul e manter os outros desligados. <p/>
