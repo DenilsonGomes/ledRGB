@@ -18,7 +18,7 @@
 
 <p>Foram criadas algumas funções para emitir a luminosidade em algumas cores desejadas. Estas funções são explicadas à seguir.<p/>
  <p> Cada função tem uma assinatura autoexplicativa e possui 3 parâmetros, sendo eles os números dos pinos referentes aos leds R, G e B, respectivamente. Estes parâmetros são comuns para todas as funções.<p/>
-<p> 1. acendeVerde: <br>
+1. acendeVerde:
 <p> acendeVerde(R, G, B) <br>
 <p> A função "acendeVerde" é utilizada para emitir luz na cor verde.<p/>
 <p> Para emitir a luz na cor verde basta ligar o led verde e manter os outros desligados. <p/>
