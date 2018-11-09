@@ -48,4 +48,4 @@
 <p> A função "acendeMagento" é utilizada para emitir luz na cor magento.<p/>
 <p> Para emitir a luz na cor magenta vamos ligar os leds vermelho e azul e manter o led verde desligado. <p/>
 
-<p> A implementação das bibliotecas podem ser vistas em "lib/func.h". <p/>
+<p> A implementação das bibliotecas podem ser vistas em "lib\func.h". <p/>
