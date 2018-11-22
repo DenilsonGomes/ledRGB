@@ -1,4 +1,4 @@
-/*Autor: Denilson Gomes Vaz da Silva
+/*Autor: Denilson Gomes Vaz da Silva <denilsongomes@alu.ufc.br>
 * Graduando em Engenharia de Computação
 * Universidade Federal do Ceará - UFC
 *
