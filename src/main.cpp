@@ -2,7 +2,9 @@
 * Graduando em Engenharia de Computação
 * Universidade Federal do Ceará - UFC
 *
-Led RGB: Codigo para emitir luz de diversas cores utilizando um led RGB
+* Led RGB: Codigo para emitir luz de diversas cores utilizando um led RGB.
+* Neste projeto foi implementado uma biblioteca para obter a emissao de
+* luz nas cores desejadas de forma mais simples.
 */
 
 //Bibliotecas
@@ -31,17 +33,17 @@ void loop() {
     digitalWrite(B,255); //Intensidade na cor azul
     delay(2000); //Espera 2 segundos */
     
-    //Cores definidas na biblioteca
-    acendeVerde(R, G, B);
-    delay(2000);
-    acendeVermelho(R, G, B);
-    delay(2000);
-    acendeAzul(R, G, B);
-    delay(2000);
-    acendeAmarelo(R, G, B);
-    delay(2000);
-    acendeCianes(R, G, B);
-    delay(2000);
-    acendeMagento(R, G, B);
-    delay(2000);
+    //Cores definidas na biblioteca "func.h"
+    acendeVerde(R, G, B); //Luz na cor verde
+    delay(2000); //Espera 2 segundos
+    acendeVermelho(R, G, B); //Luz na cor vermelha
+    delay(2000); //Espera 2 segundos
+    acendeAzul(R, G, B); //Luz na cor azul
+    delay(2000); //Espera 2 segundos
+    acendeAmarelo(R, G, B); //Luz na cor amarelo
+    delay(2000); //Espera 2 segundos
+    acendeCianes(R, G, B); //Luz na cor cianes
+    delay(2000); //Espera 2 segundos
+    acendeMagento(R, G, B); //Luz na cor magento
+    delay(2000); //Espera 2 segundos
 }
