@@ -7,7 +7,7 @@ Led RGB: Codigo para emitir luz de diversas cores utilizando um led RGB
 
 //Bibliotecas
 #include <Arduino.h>
-#include <D:\ted nerd\Arduino - Codigos\Led3Cores\lib\func.h>
+#include <func.h>
 
 //Variaveis
 // Variaveis RGB em pinos com PWM
